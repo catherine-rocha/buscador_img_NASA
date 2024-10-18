@@ -1,0 +1,33 @@
+main {
+  min-height: calc(100vh - 160px);
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img-container {
+  flex: 0 0 150px;
+  margin-right: 15px;
+}
+
+.card-img-left {
+  width: 100%;
+  height: auto;
+  max-height: 300px; 
+  object-fit: contain; 
+}
+
+.list-group {
+  flex: 1;
+}
